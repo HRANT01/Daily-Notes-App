@@ -27,7 +27,7 @@ const routes: RouteRecordRaw[] = [
 type AppLinks = RouteNames<typeof routes>;
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory("/Daily-Notes-App/"),
   routes,
 });
 
